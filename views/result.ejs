@@ -1,0 +1,19 @@
+<%-include("partials/header");-%>
+  <div class="container1">
+    <% infos.forEach(function(info){%>
+      <div class="card">
+        <h2>Name:<%= info.name%></h2>
+        <h2>Blood Group:<%= info.bg%></h2>
+        <h2>Area:<%= info.area%></h2>
+        <h2>Contact:<%= info.pn%></h2>
+      </div>
+
+<%});%>
+
+<button class="unibutton" type="button" name="button"><a href="/search">Search Again</a></button>
+
+  </div>
+
+
+  </body>
+</html>

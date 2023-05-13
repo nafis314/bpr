@@ -1,0 +1,137 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  text-align: center;
+  font-family: 'Inter', sans-serif;
+}
+h2{
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 24px;
+  color: #000000;
+
+  margin: 20px auto;
+
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.top {
+  background-color: #FD6060;
+  height: 63px;
+  width: 100%;
+  font-family: 'Inter', sans-serif;
+  font-size: 20px;
+  font-weight: normal;
+  color: #fff;
+  text-align: left;
+}
+
+.container {
+  margin: 150px 0 20px;
+
+}
+
+.or {
+  font-size: 18px;
+  color: #808080;
+}
+
+.ask {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 24px;
+  color: #000000;
+  position: relative;
+  margin: 20px auto;
+  text-align: center;
+}
+
+.unibutton {
+  text-align: center;
+  vertical-align: middle;
+  margin: 20px auto;
+  width: 220px;
+  height: 48px;
+  background: #FD6060;
+  border-radius: 50px;
+  color: #fff;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  border-style: none;
+}
+.ask2{
+    display:inline-block;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 24px;
+    color: #000000;
+    position: relative;
+    margin: 20px auto;
+    text-align: center;
+
+}
+
+.sbox{
+
+  text-align: center;
+  font-weight: 400;
+  font-size: 20px;
+  background-color: #EBEBEB;
+  margin-left: 15px;
+  border-radius: 50px;
+  width: auto;
+  height: 31px;
+
+
+}
+
+.card{
+  width: inherit;
+  height: auto;
+  padding: 20px;
+  background-color: #ebebeb;
+  margin: 15px;
+  border-radius: 25px;
+  text-align: left;
+}
+.container2{
+    text-align: left;
+    margin:20px 20px ;
+}
+.text{
+  width:auto;
+  height: 29px;
+  padding: 5px;
+  font-size: 20px;
+  margin-left: 7px;
+  border-width:thin;
+  border: 0;
+  border-bottom: 1px solid;
+
+
+}
+input::selection{
+  border-width:thin;
+  border: 0;
+  border-bottom: 1px solid;
+}
+::placeholder{
+  font-size: 16px;
+  letter-spacing: 3px;
+  color: grey;
+}

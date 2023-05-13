@@ -1,0 +1,41 @@
+<%-include("partials/header");-%>
+  <div class="container2">
+
+    <form class="" action="/register" method="post">
+      <h2 class="ask2">Enter Name</h2><input class="text" type="text" name="name" value="" placeholder="Name" autocomplete="off" required><br>
+      <h2 class="ask2">Enter contact</h2><input class="text" type="text" name="pn" value="" placeholder="Phone number" autocomplete="off" required><br>
+      <h2 class="ask2">Select blood group:</h2>
+      <select class="sbox" name="bg" required>
+         <option disabled selected value></option>
+        <option value="O+">O+</option>
+        <option value="A+">A+</option>
+        <option value="B+">B+</option>
+        <option value="AB+">AB+</option>
+        <option value="A-">A-</option>
+        <option value="B-">B-</option>
+        <option value="O-">O-</option>
+        <option value="AB-">AB-</option>
+
+      </select>
+      <br>
+      <h2 class="ask2">Select area:</h2>
+      <select class="sbox" name="area" required>
+         <option disabled selected value></option>
+        <option value="Dhaka">Dhaka</option>
+        <option value="Sylhet">Sylhet</option>
+        <option value="Khulna">Khulna</option>
+        <option value="Gazipur">Gazipur</option>
+
+      </select>
+      <br>
+        </div>
+
+<button class="unibutton" type="submit" name="button">Register</button>
+    </form>
+
+
+
+  <body>
+
+  </body>
+</html>
